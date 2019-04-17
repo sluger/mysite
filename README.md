@@ -11,9 +11,6 @@ Create db and migrate
 python manage.py migrate
 ```
 
-Try out API and insert some data: 
-https://docs.djangoproject.com/en/2.2/intro/tutorial02/#playing-with-the-api
-
 Create admin user
 ```bash
 python manage.py createsuperuser
@@ -23,3 +20,10 @@ Start dev server
 ```bash
 python manage.py runserver
 ```
+
+## Add some data
+a) Try out API and insert some data: 
+https://docs.djangoproject.com/en/2.2/intro/tutorial02/#playing-with-the-api
+
+b) Use the admin interface and insert some data:
+http://127.0.0.1:8000/admin/
