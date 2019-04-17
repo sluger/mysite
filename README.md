@@ -23,6 +23,7 @@ python manage.py runserver
 
 ## Add some data
 Use one of the following options to add some data:
+
 a) Try out API and insert some data: 
 https://docs.djangoproject.com/en/2.2/intro/tutorial02/#playing-with-the-api
 
