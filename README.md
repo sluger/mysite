@@ -6,12 +6,17 @@ Install Python 3.7, pip, and Django 2.2
 
 ## Local Development
 
-Create db
-```
+Create db and migrate
+```bash
 python manage.py migrate
 ```
 
-Start dev server
+Create admin user
+```bash
+python manage.py createsuperuser
 ```
+
+Start dev server
+```bash
 python manage.py runserver
 ```
